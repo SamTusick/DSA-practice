@@ -1,0 +1,6 @@
+# ninja log v6
+38	1077	7660907338716327	build.ninja	a2ade45b92291b93
+38	1043	7660854252971559	CMakeFiles/Sorting.dir/quickSort.cpp.obj	fc9279f2aa8a9847
+1045	1472	7660854263036568	Sorting.exe	d8c3a07c863d9cda
+18	1166	7660907535155343	CMakeFiles/Sorting.dir/quickSort.cpp.obj	aa135034dd1eab91
+1168	1690	7660907546645753	Sorting.exe	d8c3a07c863d9cda

@@ -1,0 +1,4 @@
+# ninja log v6
+27	848	7660900706077962	build.ninja	61919e40c2a74afe
+27	1052	7660900709053559	CMakeFiles/Searching.dir/binarySearch.cpp.obj	fa68d241b75f465
+1058	1511	7660900719358740	Searching.exe	fd7f043715823bdb
