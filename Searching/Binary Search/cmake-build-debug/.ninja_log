@@ -1,0 +1,22 @@
+# ninja log v6
+27	848	7660903629327811	build.ninja	61919e40c2a74afe
+1058	1511	7660900719358740	Searching.exe	fd7f043715823bdb
+27	1052	7660900709053559	CMakeFiles/Searching.dir/binarySearch.cpp.obj	fa68d241b75f465
+40	1257	7660904123327485	CMakeFiles/Searching.dir/binarySearch.cpp.obj	198266cf6c0aa84a
+1258	1704	7660904135514327	Searching.exe	fd7f043715823bdb
+29	1070	7661037259715656	CMakeFiles/Searching.dir/binarySearch.cpp.obj	198266cf6c0aa84a
+1074	1583	7661037270153931	Searching.exe	fd7f043715823bdb
+45	1031	7661038142149157	CMakeFiles/Searching.dir/binarySearch.cpp.obj	198266cf6c0aa84a
+1033	1498	7661038152027910	Searching.exe	fd7f043715823bdb
+49	1104	7661038253513903	CMakeFiles/Searching.dir/binarySearch.cpp.obj	198266cf6c0aa84a
+1105	1552	7661038264074754	Searching.exe	fd7f043715823bdb
+60	1266	7661039858873148	CMakeFiles/Searching.dir/binarySearch.cpp.obj	198266cf6c0aa84a
+1268	1833	7661039870957386	Searching.exe	fd7f043715823bdb
+45	1072	7661041596441959	CMakeFiles/Searching.dir/binarySearch.cpp.obj	198266cf6c0aa84a
+1074	1559	7661041606733346	Searching.exe	fd7f043715823bdb
+48	1087	7661041747313667	CMakeFiles/Searching.dir/binarySearch.cpp.obj	198266cf6c0aa84a
+1089	1577	7661041757723999	Searching.exe	fd7f043715823bdb
+49	1132	7661041850021300	CMakeFiles/Searching.dir/binarySearch.cpp.obj	198266cf6c0aa84a
+1134	1652	7661041860870928	Searching.exe	fd7f043715823bdb
+51	1070	7661041925683191	CMakeFiles/Searching.dir/binarySearch.cpp.obj	198266cf6c0aa84a
+1072	1574	7661041935905852	Searching.exe	fd7f043715823bdb
