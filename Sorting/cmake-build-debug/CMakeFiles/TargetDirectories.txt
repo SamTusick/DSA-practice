@@ -1,3 +1,0 @@
-C:/Users/Stusi/OneDrive - Florida Gulf Coast University/Programming/DSA-practice/Sorting/cmake-build-debug/CMakeFiles/Sorting.dir
-C:/Users/Stusi/OneDrive - Florida Gulf Coast University/Programming/DSA-practice/Sorting/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Stusi/OneDrive - Florida Gulf Coast University/Programming/DSA-practice/Sorting/cmake-build-debug/CMakeFiles/rebuild_cache.dir

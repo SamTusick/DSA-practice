@@ -1,3 +1,7 @@
+// binarySearch.cpp
+// Binary Search algorithm using a vector of ints. To use any kind of
+// data types just change data type in each function for vector & target
+
 #include <iostream>
 #include <vector>
 
@@ -8,7 +12,7 @@ int main()
     int target = 3;
     int result = binarySearch(array, target);
 
-    if(result != -1)
+    if (result != -1)
     {
         std::cout << result << "\n";
     }
@@ -33,7 +37,7 @@ int binarySearch(std::vector<int> array, int target)
             return mid;
         }
 
-        if(array[mid] > target)
+        if (array[mid] > target)
         {
             high = mid - 1;
         }
