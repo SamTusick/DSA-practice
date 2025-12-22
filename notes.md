@@ -25,6 +25,17 @@ For each Algorthim/Idea answer these questions:
 
 ### Selection sort
 
+- What does this solve / when would we use this?
+  Ordering an array
+- Explain in english
+  Start with 2 pointers at index 0, moving the second pointer to find the min value through the array, then swapping. After swapping move the first pointer up one than repeat.
+- Explain each step (Could be on Ipad)
+- Pros / Cons
+  Pros: Simple Cons: Not efficent
+- Big O
+  Time: O(n^2)
+  Space: O(1)
+
 ### Insertion sort
 
 ### Merge sort
