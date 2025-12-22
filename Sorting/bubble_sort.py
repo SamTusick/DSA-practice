@@ -6,8 +6,6 @@ def bubble_sort(arr):
         for j in range(0, n - 1):
             if arr[j] > arr[j + 1]:
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
-        j += 1
-    i += 1
     return arr
 
 def main():
