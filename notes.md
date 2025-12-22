@@ -2,37 +2,37 @@
 
 For each Algorthim/Idea answer these questions:
 
-- What does this solve / when would we use this?
-- Explain in english
-- Explain each step (Could be on Ipad)
-- Pros / Cons
-- Big O
+- What does this solve / when would we use this? -
+- Explain in english -
+- Explain each step (Could be on Ipad) -
+- Pros / Cons -
+- Big O -
 
 ## SORTING
 
 ### Bubble sort
 
-- What does this solve / when would we use this?
+- What does this solve / when would we use this? -
   It helps order a small array.
-- Explain in english
+- Explain in english -
   Using a pointer variable traversing through the array decided weather the pointer item is greater than pointer + 1, if so swap, then continue, making multiple passes.
-- Explain each step (Could be on Ipad)
-- Pros / Cons
+- Explain each step (Could be on Ipad) -
+- Pros / Cons -
   Pros: Simple Cons: Slow and not efficent
-- Big O
+- Big O -
   Time: O(n^2)
   Space: O(1)
 
 ### Selection sort
 
-- What does this solve / when would we use this?
+- What does this solve / when would we use this? -
   Ordering an array
-- Explain in english
+- Explain in english -
   Start with 2 pointers at index 0, moving the second pointer to find the min value through the array, then swapping. After swapping move the first pointer up one than repeat.
-- Explain each step (Could be on Ipad)
-- Pros / Cons
+- Explain each step (Could be on Ipad) -
+- Pros / Cons -
   Pros: Simple Cons: Not efficent
-- Big O
+- Big O -
   Time: O(n^2)
   Space: O(1)
 
