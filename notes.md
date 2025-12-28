@@ -39,7 +39,7 @@ For each Algorthim/Idea answer these questions:
 ### Insertion sort
 
 - What does this solve / when would we use this? - Sorting data
-- Explain in english - Compare on number with the number to the left repeatedly until no numbers on the left are smaller than it. Then swap.
+- Explain in english - Compare one number with the number to the left repeatedly until no numbers on the left are smaller than it. Then swap.
 - Explain each step (Could be on Ipad) -
 - Pros / Cons - Pros: Simple Cons: Not most efficent
 - Big O - Time - O(n^2) Space - O(1)
