@@ -1,6 +1,9 @@
 # Merge Sort
+# Divide and Conquer 
 
 def merge_sort(arr):
+    
+
     return arr
 
 def main():
