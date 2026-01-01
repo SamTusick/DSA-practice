@@ -6,17 +6,18 @@
 # Merge sorted arrays together
 
 def merge_sort(arr):
-    # Dividing the array
+    # Base Case
     if len(arr) <= 1:
         return arr
     
+    # Dividing the array
     mid = len(arr) //  2
     left = arr[:mid]
     right = arr[mid:]
-    print(left, right)
 
     sorted_left = merge_sort(left)
     sorted_right = merge_sort(right)
+    
     return merge(sorted_left, sorted_right)
 
 def merge(left, right):
