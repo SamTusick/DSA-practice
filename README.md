@@ -54,6 +54,12 @@ For each Algorthim/Idea answer these questions:
 
 ### Quick sort
 
+- What does this solve / when would we use this? - Sort Data quickly
+- Explain in english - Select a pivot index, move all data less than the pivot to the left and all data greater than to the right, then reselect pivot and repeat
+- Explain each step (Could be on Ipad) -
+- Pros / Cons - One of the most efficent sorting algorithms
+- Big O - Time - O(n log n) Space - O(n^2)
+
 ## SEARCHING
 
 ## HASHING
