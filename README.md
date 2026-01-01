@@ -46,6 +46,12 @@ For each Algorthim/Idea answer these questions:
 
 ### Merge sort
 
+- What does this solve / when would we use this? - Breaks down data and sorts it
+- Explain in english - Break data in a array down to size 1, compare and merge 2 arrays, and repeat
+- Explain each step (Could be on Ipad) -
+- Pros / Cons - Very efficent
+- Big O - Time- O(n log n) Space- O(n)
+
 ### Quick sort
 
 ## SEARCHING
