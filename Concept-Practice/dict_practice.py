@@ -1,16 +1,19 @@
 
 def main():
+    # List of dicts
+    print("List of Dicts")
     people = []
     people.append({'name': 'Sam', 'age': 20, 'major': 'SWE'})
     people.append({'name': 'Erik', 'age': 19, 'major': 'Prenursing'})
 
-    #print(people)
+    print(people)
 
-    #for person in people:
-        #if person['name'] == 'Erik':
-            #print(person)
+    for person in people:
+        if person['name'] == 'Erik':
+            print(person)
 
-
+    # Dict of dicts
+    print('\nDict of Dicts')
     people_dict = {
         'Sam': {'age': 20, 'major': 'SWE'}, 
         'Erik': {'age': 19, 'major': 'Prenursing'}
