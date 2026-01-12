@@ -27,6 +27,11 @@ def main():
     print(people_dict)
     print(people_dict['Sam'])
     print(people_dict['Erik']['age'])
+    print(list(people_dict.values()))
+
+    arr = [2, 3, 4, 5]
+    for num in range(0, len(arr) - 1):
+        print(num)
 
 if __name__ == "__main__":
     main()
