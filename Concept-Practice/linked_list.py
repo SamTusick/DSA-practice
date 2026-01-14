@@ -4,13 +4,17 @@ class ListNode(object):
         self.next = next
 
 def main():
-    head = ListNode(1)
+    head = ListNode(0)
 
     append(head, 5)
     append(head, 6)
     append(head, 7)
     remove(head, 6)
     append(head, 6)
+    append(head, 10)
+    append(head, 11)
+    append(head, 12)
+    remove(head, 7)
 
     display(head)
 
