@@ -13,25 +13,40 @@
 #   BFS(Level Order):
 #       Use a queue
 
+from collections import deque
+
 class Node(object):
     def __init__(self,val=0,left=None,right=None):
         self.val = val
         self.left = left
         self.right = right
-def build_tree(values):
-    queue = []
-    i = 0
-    while len(queue) != 0 and i < len(values):
-        if len(queue) == 0:
-            root = Node(values[i])
-            queue.append(root)
-            i += 1
-        node = Node(values[i])
-        next_node = Node(values[i+1])
-        queue[0].left = node
-        queue[0].right = next_node
-
         
+def build_tree(values):
+    if not values:
+        return None
+
+    root = Node(values[0])
+    queue = deque([root])
+    i = 1  # start from the second element
+
+    while queue and i < len(values):
+        parent = queue.popleft()
+
+        # Left child
+        if i < len(values) and values[i] is not None:
+            left_node = Node(values[i])
+            parent.left = left_node
+            queue.append(left_node)
+        i += 1
+
+        # Right child
+        if i < len(values) and values[i] is not None:
+            right_node = Node(values[i])
+            parent.right = right_node
+            queue.append(right_node)
+        i += 1
+
+    return root 
 
 
 def main():
