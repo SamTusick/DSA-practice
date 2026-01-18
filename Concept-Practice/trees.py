@@ -18,23 +18,25 @@ class Node(object):
         self.val = val
         self.left = left
         self.right = right
+def build_tree(values):
+    queue = []
+    i = 0
+    while len(queue) != 0 and i < len(values):
+        if len(queue) == 0:
+            root = Node(values[i])
+            queue.append(root)
+            i += 1
+        node = Node(values[i])
+        next_node = Node(values[i+1])
+        queue[0].left = node
+        queue[0].right = next_node
+
+        
+
 
 def main():
-    root = Node(10)
-    left = Node(5)
-    root.left = left 
-    right = Node(20)
-    root.right = left
-    n4 = Node(3) 
-    n5 = Node(7)
-    n6 = Node(30)
-    left.left = n4
-    left.right = n5
-    right.right = n6
+    nums = [10, 5, 20, 3, 7, None, 30]
 
-    print(root.val)
-    print(left.val)
-    print(right.right.val)
 
 if __name__ == "__main__":
     main()
