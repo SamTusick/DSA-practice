@@ -59,13 +59,28 @@ def preorder(node, values):
         preorder(right, values)
 
     return values
+def inorder(node, values):
+    if not node:
+        return values
+    
+    left = node.left
+    right = node.right
+    if left:
+        inorder(left,values)
+    values.append(node.val)
+    if right:
+        inorder(right,values)
 
+    return values
 def main():
     nums = [10, 5, 20, 3, 7, None, 30]
     root = build_tree(nums)
-    pre_order_list = []
-    preorder(root, pre_order_list)
-    print(pre_order_list)
+    #pre_order_list = []
+    #preorder(root, pre_order_list)
+    #print(pre_order_list)
+    inorder_list = []
+    inorder(root, inorder_list)
+    print(inorder_list)
 
 if __name__ == "__main__":
     main()
