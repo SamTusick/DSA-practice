@@ -1,13 +1,5 @@
 # DSA Dev Notes
 
-For each Algorthim/Idea answer these questions:
-
-- What does this solve / when would we use this? -
-- Explain in english -
-- Explain each step (Could be on Ipad) -
-- Pros / Cons -
-- Big O -
-
 ## SORTING
 
 ### Bubble sort
