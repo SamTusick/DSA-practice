@@ -26,7 +26,7 @@ def build_tree(values):
         return None
 
     root = Node(values[0])
-    queue = deque([root])
+    queue = deque([root]) # creates new queue with root as first item
     i = 1  # start from the second element
 
     while queue and i < len(values):
@@ -47,11 +47,25 @@ def build_tree(values):
         i += 1
 
     return root 
+def preorder(node, values):
+    if not node:
+        return values
+    values.append(node.val)
+    left = node.left
+    right = node.right
+    if left:
+       preorder(left, values)
+    if right:
+        preorder(right, values)
 
+    return values
 
 def main():
     nums = [10, 5, 20, 3, 7, None, 30]
-
+    root = build_tree(nums)
+    pre_order_list = []
+    preorder(root, pre_order_list)
+    print(pre_order_list)
 
 if __name__ == "__main__":
     main()
