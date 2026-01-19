@@ -47,41 +47,33 @@ def build_tree(values):
         i += 1
 
     return root 
+
 def preorder(node, values):
     if not node:
         return values
+    
     values.append(node.val)
-    left = node.left
-    right = node.right
-    if left:
-       preorder(left, values)
-    if right:
-        preorder(right, values)
+    preorder(node.left, values)
+    preorder(node.right, values)
 
     return values
+
 def inorder(node, values):
     if not node:
         return values
     
-    left = node.left
-    right = node.right
-    if left:
-        inorder(left,values)
+    inorder(node.left,values)
     values.append(node.val)
-    if right:
-        inorder(right,values)
+    inorder(node.right,values)
 
     return values
+
 def post_order(node,values):
     if not node:
         return values
-    left = node.left
-    right = node.right
 
-    if left:
-        post_order(left,values)
-    if right:
-        post_order(right,values)
+    post_order(node.left,values)
+    post_order(node.right,values)
     values.append(node.val)
 
     return values
