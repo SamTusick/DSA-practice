@@ -72,15 +72,32 @@ def inorder(node, values):
         inorder(right,values)
 
     return values
+def post_order(node,values):
+    if not node:
+        return values
+    left = node.left
+    right = node.right
+
+    if left:
+        post_order(left,values)
+    if right:
+        post_order(right,values)
+    values.append(node.val)
+
+    return values
+
 def main():
     nums = [10, 5, 20, 3, 7, None, 30]
     root = build_tree(nums)
-    #pre_order_list = []
-    #preorder(root, pre_order_list)
-    #print(pre_order_list)
+    pre_order_list = []
+    preorder(root, pre_order_list)
+    print("Pre order: ", pre_order_list)
     inorder_list = []
     inorder(root, inorder_list)
-    print(inorder_list)
+    print("Inorder : ", inorder_list)
+    post_order_list = []
+    post_order(root, post_order_list)
+    print("Post Order: " , post_order_list)
 
 if __name__ == "__main__":
     main()
